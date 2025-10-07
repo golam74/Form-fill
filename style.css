@@ -1,0 +1,37 @@
+form {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 2px solid #1a73e8;
+  border-radius: 12px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  background-color: #1a73e8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0b5ed7;
+}
